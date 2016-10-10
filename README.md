@@ -26,7 +26,7 @@ var seleniumCapabilities = {
     version: "47",
     platform: "linux"
 };
-var seleniumHub = "localhost";
+var seleniumHub = "localhost:4444";
 var gabaritoHost = "localhost";
 
 var env = new SeleniumEnvironment(
