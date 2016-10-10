@@ -1,0 +1,33 @@
+{
+  "name": "gabarito-selenium",
+  "version": "0.0.1",
+  "author": "Pablo Cabrera <pablo.cabrera.munoz@gmail.com>",
+  "description": "Selenium support for gabarito",
+  "homepage": "https://github.com/pablo-cabrera/gabarito-selenium",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pablo-cabrera/gabarito-selenium.git"
+  },
+  "main": "./lib/SeleniumEnvironment.js",
+  "dependencies": {
+    "ilk": "0.0.1-alpha.1",
+    "selenium-webdriver": "^3.0.0-beta-3"
+  },
+  "devDependencies": {
+    "gabarito": "^0.0.1",
+    "grunt": "^0.4.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-yuidoc": "^0.4.0",
+    "grunt-gabarito": "0.0.4",
+    "grunt-jscs": "^2.8.0",
+    "parts": "0.0.1-alpha.3",
+    "yuidoc-clear-theme": "^2.0.0"
+  },
+  "peerDependencies": {
+    "gabarito": "^0.0.1"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}

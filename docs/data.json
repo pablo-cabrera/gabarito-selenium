@@ -1,0 +1,75 @@
+{
+    "project": {
+        "name": "gabarito-selenium",
+        "description": "Selenium support for gabarito",
+        "version": "0.0.1",
+        "url": "https://github.com/pablo-cabrera/gabarito-selenium"
+    },
+    "files": {
+        "lib/SeleniumEnvironment.js": {
+            "name": "lib/SeleniumEnvironment.js",
+            "modules": {},
+            "classes": {
+                "SeleniumEnvironment": 1
+            },
+            "fors": {
+                "SeleniumEnvironment": 1
+            },
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "SeleniumEnvironment": {
+            "name": "SeleniumEnvironment",
+            "shortname": "SeleniumEnvironment",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/SeleniumEnvironment.js",
+            "line": 15,
+            "extends": "gabarito::gabarito.plumbing.ServerEnvironment",
+            "is_constructor": 1,
+            "params": [
+                {
+                    "name": "capabilities",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "hub",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "host",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "webdriver",
+                    "description": "",
+                    "type": "Selenium-webdriver::WebDriver",
+                    "optional": true
+                }
+            ]
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib/SeleniumEnvironment.js",
+            "line": 54,
+            "description": "Returns the name of the environment, the browser, version and\nplatform from its capabilities.",
+            "itemtype": "method",
+            "name": "getName",
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "class": "SeleniumEnvironment"
+        }
+    ],
+    "warnings": []
+}
